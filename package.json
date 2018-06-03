@@ -29,7 +29,7 @@
     "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "dependencies": {
-    "lodash": "^3.10.1"
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
     "chai": "^1.9.1",
